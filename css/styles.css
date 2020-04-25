@@ -2,6 +2,26 @@ body {
     font-family: Montserrat;
 }
 
+h1 {
+    font-family: Montserrat, sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight:900;
+}
+
+h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight:700;
+}
+
+h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5rem;
+    font-weight:700;
+}
+
 .container-fluid {
     padding: 3% 15%;
 }
@@ -54,6 +74,11 @@ body {
     line-height: 1.5;
 }
 
+/* Feature section */
+
+#features {
+    padding: 7% 15%;
+}
 .feature-heading {
     font-family: Montserrat, sans-serif;
     font-size: 1.5rem;
@@ -73,4 +98,30 @@ body {
 
 .feature-description {
     color: #8f8f8f;
+}
+
+/* Testimonial section */
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.testimonial-image {
+    width:10%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
 }
