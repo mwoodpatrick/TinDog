@@ -11,7 +11,7 @@ h1 {
 
 h2 {
     font-family: Montserrat, sans-serif;
-    font-size: 3rem;
+    font-size: 2.5rem;
     line-height: 1.5;
     font-weight:700;
 }
@@ -105,8 +105,11 @@ h3 {
 #testimonials {
     background-color: #ef8172;
     color: #fff;;
-    padding: 7% 15%;
     text-align: center;
+}
+
+.carousel-item {
+    padding: 7% 15%;
 }
 
 .testimonial-image {
