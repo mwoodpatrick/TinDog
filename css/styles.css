@@ -1,29 +1,44 @@
 body {
   font-family: Montserrat;
+  text-align: center;
 }
 
-h1 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Montserrat, sans-serif;
-  font-size: 3.5rem;
-  line-height: 1.5;
-  font-weight: 900;
-}
-
-h2 {
-  font-family: Montserrat, sans-serif;
-  font-size: 2.5rem;
-  line-height: 1.5;
   font-weight: 700;
 }
 
 h3 {
-  font-family: Montserrat, sans-serif;
   font-size: 1.5rem;
-  font-weight: 700;
 }
 
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+  font-family: Montserrat, sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 7% 15%;
 }
 
 /* Navigation Bar */
@@ -54,7 +69,19 @@ h3 {
   margin: 5% 3% 5% 0;
 }
 
+/* Title section */
+
 /* Title image */
+
+#title {
+  text-align: left;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
 
 .title-image {
   position: absolute;
@@ -63,33 +90,19 @@ h3 {
   right: 10%;
 }
 
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
-.title-text {
-  font-family: Montserrat, sans-serif;
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
-}
-
 /* Feature section */
 
 #features {
   position: relative;
   top: -40px;
   background-color: #fff;
-  padding: 7% 15%;
 }
 
-.feature-heading {
+.feature-title {
   font-family: Montserrat, sans-serif;
   font-size: 1.5rem;
   font-weight: 700;
   margin: 14px auto;
-  text-align: center;
 }
 
 .feature-icon {
@@ -110,11 +123,11 @@ h3 {
 #testimonials {
   background-color: #ef8172;
   color: #fff;
-  text-align: center;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
 .testimonial-image {
@@ -126,7 +139,6 @@ h3 {
 #press {
   background-color: #ef8172;
   padding-bottom: 3%;
-  text-align: center;
 }
 
 .press-logo {
@@ -140,8 +152,11 @@ h3 {
   padding: 100px;
 }
 
+.price-text {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
 .pricing-column {
-  text-align: center;
   padding: 3% 2%;
 }
 
@@ -159,26 +174,12 @@ h3 {
 /* Call to Action */
 
 #cta {
-  text-align: center;
   background-color: #ff4c68;
   color: #fff;
-  padding: 7% 15%;
-}
-
-.action-header {
-  font-family: Montserrat, sans-serif;
-  font-weight: 900;
-  font-size: 3.5rem;
-  line-height: 1.5;
 }
 
 /* Footer */
 
-#footer {
-    text-align: center;
-  padding: 7% 15%;
-}
-
 .social-icon {
-    margin: 20px 10px;
+  margin: 20px 10px;
 }
